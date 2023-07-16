@@ -1,0 +1,94 @@
+LOCUS       OYC-dropout-suGFP            886 bp    DNA     linear   UNC 03-JUL-2023
+DEFINITION  Open Yeast suGFP dropout with J23100 promoter and strong pET RBS. Used 
+            as a receiving vector for OYC GGA. Prefix: AGAC Suffix: ATGA
+ACCESSION   .
+VERSION     .
+KEYWORDS    Open Yeast Collection IIA Part; Golden Gate Assembly;
+            OpenMTA; iGEM;
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 50 to 870)
+  AUTHORS   Marcos Valenzuela-Ortega and Christopher French
+  TITLE     Joint universal modular plasmids (JUMP): a flexible vector platform for 
+            synthetic biology.
+  JOURNAL   Synthetic Biology, 2021, 6(1): ysab003
+            PubMed ID:  31148366
+			doi: 10.1093/synbio/ysab003
+COMMENT     Promoter, RBS, and suGFP from pJUMP vectors; PacI/SpeI for cloning into SEVA; 
+            BbsI for cloning into pOpen-v3; Can replace either BsaI site with overlapping
+            oligos for low cost customization. SapI removed from suGFP.
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(33..36,38..43))
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#7FFFD4"
+                     /ApEinfo_revcolor="#7FFFD4"
+     protein_bind    44..49
+                     /label="XhoI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     promoter        55..88
+                     /label="J23100 promoter"
+                     /ApEinfo_fwdcolor="#006400"
+                     /ApEinfo_revcolor="#006400"
+     RBS             93..113
+                     /label="pET RBS"
+                     /note="efficient ribosome binding site from pJUMP & pET vectors"
+                     /ApEinfo_fwdcolor="#006400"
+                     /ApEinfo_revcolor="#006400"
+     CDS             121..849
+                     /label="suGFP"
+                     /translation="MVARKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLT
+                     LKFICTTGKLPVPWPTLVTTLTYGVQCFARYPDHMKQHDFFKSAMPEGYVQERTISFKD
+                     DGTYKTRAEVKFEGDTLVNRIELKGIDFKEDGNILGHKLEYNFNSHNVYITADKQKNGI
+                     KANFKIRHNVEDGSVQLADHYQQNTPIGDGPVLLPDNHYLSTQSVLSKDPNEKRDHMVL
+                     LEFVTAAGITHGMDELYKGS*"
+     protein_bind    871..876
+                     /label="MfeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    join(877..882,884..887)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#7FFFD4"
+                     /ApEinfo_revcolor="#7FFFD4"
+     protein_bind    888..893
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(896..899,902..907))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcAGACtGAG ACCctcgagg gagTTGACGG
+       61 CTAGCTCAGT CCTAGGTACA GTGCTAGCgt acTTGTTTAA CTTTAAGAAG GAGatataca
+      121 ATGGTAGCCC GTAAAGGCGA gGAGCTGTTC ACTGGTGTCG TCCCTATTCT GGTGGAACTG
+      181 GATGGTGATG TCAACGGTCA TAAGTTTTCC GTGCGTGGCG AGGGTGAAGG TGACGCAACT
+      241 AATGGTAAAC TGACGCTGAA GTTCATCTGT ACTACTGGTA AACTGCCGGT ACCTTGGCCG
+      301 ACTCTGGTAA CGACGCTGAC TTATGGTGTT CAGTGCTTTG CTCGTTATCC GGACCATATG
+      361 AAGCAGCATG ACTTCTTCAA GTCCGCCATG CCGGAAGGCT ATGTGCAGGA ACGCACGATT
+      421 TCCTTTAAGG ATGACGGCAC GTACAAAACG CGTGCGGAAG TGAAATTTGA AGGCGATACC
+      481 CTGGTAAACC GCATTGAGCT GAAAGGCATT GACTTTAAAG AAGATGGCAA TATCCTGGGC
+      541 CATAAGCTGG AATACAATTT TAACAGCCAC AATGTTTACA TCACCGCCGA TAAACAAAAA
+      601 AATGGCATTA AAGCGAATTT TAAAATTCGC CACAACGTGG AGGATGGCAG CGTGCAGCTG
+      661 GCTGATCACT ACCAGCAAAA CACTCCAATC GGTGATGGTC CTGTTCTGCT GCCAGACAAT
+      721 CACTATCTGA GCACGCAAAG CGTTCTGTCT AAAGATCCGA ACGAGAAACG CGATCATATG
+      781 GTTCTGCTGG AGTTCGTAAC CGCAGCGGGC ATCACGCATG GTATGGATGA ACTGTACAAA
+      841 GGTTCGTAAc ttctgactga gttgcacgct caattgGGTC TCtATGAact agtcgCGCTt
+      901 cGTCTTCtga
+//

@@ -1,0 +1,64 @@
+LOCUS       yh_tXPR2                 310 bp    DNA     linear   UNC 08-SEP-2022
+DEFINITION  Yarrowia lipolytica XPR2 native terminator sequence as a GCTT/CGCT part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Open Yeast Collection IIA Part; Golden Gate Assembly;
+            OpenMTA; iGEM;
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Open Science Network Society
+  TITLE     Direct Submission 
+  JOURNAL   https://iGEM.org/  
+REFERENCE   2  (bases 44 to 246)
+  AUTHORS   Larroude M, Park YK, Soudier P, Kubiak M, Nicaud JM, Rossignol T.
+  TITLE     A modular Golden Gate toolkit for Yarrowia lipolytica synthetic biology.
+  JOURNAL   Microb Biotechnol. 2019 May 31. 
+            doi: 10.1111/1751-7915.13427.
+            PubMed ID:  31148366
+COMMENT     Part for clonal synthesis; Random sequence added to meet Twist's minimum.
+            BbsI sites for cloning in pOpen_v3; PacI/SpeI for SEVA-based vectors.
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    join(33..38,40..43)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     terminator      40..250
+                     /label="XPR2 terminator"
+                     /original_record="part"
+     protein_bind    complement(join(247..250,252..257))
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    258..263
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(266..269,272..277))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    278..310
+                     /label="random sequence"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtG CTTatcggcc cgggcaaacc
+       61 acaccaaccc ttctcttcta tcgccagtcg aaatgtgact ttttaagtaa tcaattcttg
+      121 taaacacttg atcgtacgta gttggatcat ggcgcgacaa aataatttcc aaccagtgtc
+      181 actcactcca ctcagactgt tggagcactt gacagataga tcacccatca agcagcaact
+      241 tggaatCGCT tGAGACCact agtcgCGCTt cGTCTTCtga ctatagtgta acgcaggttc
+      301 gtctgcccta
+//
