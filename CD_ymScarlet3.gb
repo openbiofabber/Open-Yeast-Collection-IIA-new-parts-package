@@ -1,0 +1,82 @@
+LOCUS       CD_ymScarlet3              763 bp    DNA     linear   UNK 23-MAY-2023
+DEFINITION  mScarlet3 codon optimized for yeast (Saccharomyces, Pichia & Yarrowia)
+            as a CD (AATG/ggAGGT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit; Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part.
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 763)
+  AUTHORS   Scott Pownall, Ian Cavén, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://igem.org/
+REFERENCE   2  (bases 41 to 727)
+  AUTHORS   Theodorus W J Gadella Jr, Laura van Weeren, Jente Stouthamer, Mark A Hink, 
+            Anouk H G Wolters, Ben N G Giepmans, Sylvain Aumonier, Jérôme Dupuy, 
+            Antoine Royant
+  TITLE     mScarlet3: a brilliant and fast-maturing red fluorescent protein.
+  JOURNAL   Nat Methods. 2023 Apr;20(4):541-545.
+            PubMed ID: 36973546
+			DOI: 10.1038/s41592-023-01809-y.
+COMMENT     .
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="C"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     CDS             41..733
+                     /label="CD_ymScarlet3"
+                     /gene="CD_ymScarlet3"
+                     /translation="MDSTEAVIKEFMRFKVHMEGSMNGHEFEIEGEGEGRPYEGTQTAK
+                     LRVTKGGPLPFSWDILSPQFMYGSRAFTKHPADIPDYWKQSFPEGFKWERVMNFEDGGA
+                     VSVAQDTSLEDGTLIYKVKLRGTNFPPDGPVMQKKTMGWEASTERLYPEDVVLKGDIKM
+                     ALRLKDGGRYLADFKTTYRAKKPVQMPGAFNIDRKLDITSHNEDYTVVEQYERSVARHS
+                     TGGSGGS"
+     misc_feature    730..733
+                     /label="D"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(735..740)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    741..746
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(749..752,755..760))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcA ATGgactcta ctgaagctgt
+       61 gatcaaggag ttcatgagat tcaaggttca catggaaggc tctatgaacg gtcatgaatt
+      121 cgaaatcgag ggtgaaggtg aaggtagacc ttacgaaggt actcagactg ctaagttgag
+      181 agttaccaag ggtggtcctt tgcctttttc ttgggatatc ctgtctcctc agtttatgta
+      241 cggttccaga gccttcacta agcatcctgc tgatattcct gactactgga agcagtcttt
+      301 tcctgaaggt ttcaagtggg agagagtgat gaactttgaa gatggtggtg ctgtttctgt
+      361 tgctcaggat acttctctgg aagatggtac tctgatctac aaggtgaagt tgagaggtac
+      421 taacttccct cctgatggtc cTgttatgca gaagaaaact atgggttggg aagcctctac
+      481 tgaaagattg taccctgagg atgttgttct gaagggtgac attaagatgg ctctgagatt
+      541 gaaggatggt ggtagatact tggctgattt caagaccacc tacagagcta agaagcctgt
+      601 tcagatgcct ggtgctttca acatcgacag aaagttggac atcacttctc ataacgagga
+      661 ttacactgtg gtggaacagt acgaaagatc tgttgctaga cactctactg gtggttctgg
+      721 tggttctggA GGTcGAGACC actagtcgCG CTtcGTCTTC tga
+//

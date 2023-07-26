@@ -1,0 +1,77 @@
+LOCUS       AB_yh_pGAPDH                880 bp    DNA     linear   UNC 05-SEP-2022
+DEFINITION  Yarrowia lipolytica GAPDH promoter as an AB (GGAG/TACT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yarrowia lipolytica, Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part; 
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 878)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 850)
+  AUTHORS   Lynn Wong, Jake Engel, Erqing Jin, Benjamin Holdridge, Peng Xu
+  TITLE     YaliBricks, a versatile genetic toolkit for streamlined and rapid pathway 
+            engineering in Yarrowia lipolytica.
+  JOURNAL   Metab Eng Commun. 2017 Oct 1;5:68-77
+            PubMed ID: 29188186
+			doi: 10.1016/j.meteno.2017.09.001
+COMMENT     BsmBI site removed (t>A); BbsI site removed (t>A); SpeI site removed (t>A)
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="A"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     promoter        40..850
+                     /label="GAPDH Promoter"
+                     /original_record="part"
+     misc_feature    847..850
+                     /label="B"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(852..857)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    858..863
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(866..869,872..877))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtG GAGtaccaac cacagattac
+       61 gacccattcg cagtcacagt tcactagggt ttgggttgca tccgttgaga gtggtttgtt
+      121 tttaaccttc tccatgtgct cactcaggtt ttgggttcag atcaaatcaa ggcgtgaacc
+      181 actgtttgag gacaaatgtg acacaaccaa ccagtgtcag gggcaagtcc gtgacaaagg
+      241 ggaagataca atgcaattac tgacagttac ggactgcctc gatgccctaa ccttgcccca
+      301 aaataagaca actgtcctcg tttaagcgca accctattca gcgtcacgtc ataatagcgt
+      361 ttggatagca ctagActatg aggagcgttt tatgttgcgg tgagggcgat tggtgctcat
+      421 atgggAtcaa ttgaggtggt ggaacgagct tagtctAcaa ttgaggtgcg agcgacacaa
+      481 ttgggtgtca cgtggcctaa ttgacctcgg atcgtggagt ccccagttat acagcaacca
+      541 cgaggtgcat gagtaggTga cgtcaccaga caatagggtt tttttggact ggagagggta
+      601 gggcaaaagc gctcaacggg ctgtttgggg agctatgggg gaggaattgg cgatatttgt
+      661 gaggttgacg gctccgattt gcgtgttttg tcgcttctgc atctccccat acccatatct
+      721 tccctcccca cctctttcca cgataatttt acggatcagc aataaggttc cttctcctag
+      781 tttccacgtc catatatatc tatgctgcgt cgtccttttc gtgacatcac caaaacacat
+      841 acaaaaTACT tGAGACCact agtcgCGCTt cGTCTTCtga
+//

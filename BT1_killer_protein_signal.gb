@@ -1,0 +1,78 @@
+LOCUS       BT1_killer_protein_signal 327 bp    DNA     linear   UNK 12-MAR-2023
+DEFINITION  Killer protein signal sequence from Saccharomyces cerevisiae fused
+            to αMF_no_EAEA. BT1 syntax TACT/CCAT.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit; Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part.
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 327)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 292)
+  AUTHORS   Ulrike Obst, Timothy K Lu, Volker Sieber
+  TITLE     A Modular Toolkit for Generating Pichia pastoris Secretion Libraries.
+  JOURNAL   ACS Synth Biol. 2017 Jun 16;6(6):1016-1025
+            PubMed ID: 28252957
+			doi: 10.1021/acssynbio.6b00337
+COMMENT     .
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="B"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     CDS             44..121
+                     /codon_start=1
+                     /label="Killer protein signal"
+                     /translation="MTKPTQVLVRSVSILFFITLLHLVVA"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     CDS             122..292
+                     /codon_start=1
+                     /label="αMF_no_EAEA"
+                     /translation="MRFPSIFTAVLFAASSALAAPVNTTTEDELEGDFDVAVLPFSASI
+                     AAKEEGVSLEKR"
+                     /ApEinfo_fwdcolor="#2B8AE2"
+                     /ApEinfo_revcolor="#2B8AE2"
+     misc_feature    294..297
+                     /label="T1"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     protein_bind    complement(299..304)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    305..310
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(313..316,319..324))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcT ACTatgacca aaccaacgca
+       61 agtcttagtt cgttcagtct ctattttatt cttcatcaca ctgttgcact tggttgttgc
+      121 aatgagattt cctagtattt tcactgctgt gctatttgcc gctagttccg ctctagctgc
+      181 tccagttaat actactactg aagatgaatt ggagggtgac ttcgatgttg ctgttctgcc
+      241 tttttccgct tctatcgcag ccaaggaaga aggtgtatcc ctagagaagc gttCCATgGA
+      301 GACCactagt cgCGCTtcGT CTTCtga
+//

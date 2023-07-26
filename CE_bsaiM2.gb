@@ -1,0 +1,93 @@
+LOCUS       CE_Ec_bsaiM2     1223 bp    DNA     linear   UNC 05-JUL-2023
+DEFINITION  Geobacillus stearothermophilus bsaiM2 codon optimized for E. coli, 
+            defined as a CE (AATG/GCTT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    OpenMTA, 
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            .
+REFERENCE   1  (bases 1 to 1223)
+  AUTHORS   Scott Pownall, Open Science Network
+            https://openbiofoundry.org/
+  TITLE     Direct Submission
+REFERENCE   2  (bases 41 to 1189)
+  AUTHORS   Zhenyu Zhu and Shuang-Yong
+  TITLE     Method for Cloning and Expression of BsaI Restriction Endonuclease and 
+            BsaI methylase in E. coli.
+  JOURNAL   US Patent US20030186363A1 - expired
+COMMENT     Codon optimized to E. coli using Benchling
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="C"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     CDS             41..1189
+                     /gene="bsaiM2_ec"
+                     /note="BsaI methyltransferase 2; C5 methyltransferase"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="M2.BsaI"
+                     /protein_id="AAR96017.1"
+                     /translation="MLIIKHVPPGGNWKDIPEWVPSKRLEQIRKSYAEGKGSRSTYYG
+                     RLLPDMPSYTINTYFNRPGNGCHIHYEQDRTLSQREAARLQSFPDDFIFYGSKTAINN
+                     QIGNAVPPLLAYQIAKAFPFKGQFVDLFSGAGGLSLGFLWAGWKPIIANDIDKWALTT
+                     YMNNIHNEVVLGDIRDEKVSETIIQKCLIAKKSNPDRPLFVLGGPPCQGFSTAGKKRS
+                     IVDERNWLFESYVSILKEVKPDGFIFENVTGLLSMEKGAFFEMVKSELSKTVSNLFVY
+                     KLNSVDYGVPQRRNRVVIIGDSTGTKNSEPPIPITSLKGEKTLFDALSSAISVKEALS
+                     DLPLLSPNEDGSWKNYVCEPQNIYQSFMRKKITAQQYIEMLSSLAII"
+     misc_feature    1190..1193
+                     /label="E"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(1195..1200)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1201..1206
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(1209..1212,1215..1220))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcA ATGatgctga tcattaagca
+       61 cgtacctccg ggcggcaact ggaaggacat tccggagtgg gtcccttcga aacgcttaga
+      121 gcaaattcga aaaagctatg cagaaggcaa gggcagccgt tctacgtatt acggtcgcct
+      181 gctgccagac atgccgagct atacaatcaa cacctatttc aatcgcccgg gaaacggttg
+      241 tcatattcat tacgagcagg ataggaccct gtcgcagcgt gaggcggcgc gccttcagag
+      301 ctttcctgac gattttattt tttatggaag caaaaccgcc attaacaatc agattggcaa
+      361 tgccgtaccg ccgctgctgg cgtatcagat agcgaaagca ttccccttta aaggacagtt
+      421 cgtcgacctg ttcagtggcg ccggcggtct ttcgctaggc tttttatggg caggttggaa
+      481 acctattatt gccaacgata ttgataaatg ggcactcacc acgtacatga ataacatcca
+      541 caatgaagtt gttctggggg atattcggga tgaaaaagtg tccgaaacca tcattcaaaa
+      601 atgcctcatc gcgaagaaaa gcaaccccga tcgcccattg ttcgttctgg gtggaccccc
+      661 gtgccagggc ttctcgactg cgggcaaaaa gcgtagcatt gtcgatgaac gcaactggct
+      721 gtttgaatct tacgtgtcca tactgaaaga agttaaaccg gatggcttta ttttcgaaaa
+      781 tgtcaccggt ttgctgagta tggaaaaagg ggcgtttttc gaaatggtga agtcagaact
+      841 gagcaaaact gtgtctaacc tctttgtgta taaactaaat agtgtggatt atggggttcc
+      901 acagcgccgt aatcgtgtag taatcatcgg tgactcaacg ggtacgaaaa acagcgaacc
+      961 gccaattccg attacatcat taaaaggcga gaaaacctta tttgatgccc tttcctcagc
+     1021 catctcagtg aaagaagctc tgtctgacct gccgttgctt tccccgaatg aagatggctc
+     1081 gtggaaaaac tacgtgtgtg agccgcagaa tatctaccag agctttatgc gtaagaagat
+     1141 tactgctcaa caatacattg aaatgttgag cagtttagcg atcatctaaG CTTcGAGACC
+     1201 actagtcgCG CTtcGTCTTC tga
+//

@@ -1,0 +1,81 @@
+LOCUS       AB_yh_pACL2                 878 bp    DNA     linear   UNC 06-SEP-2022
+DEFINITION  Yarrowia lipolytica ACL2 promoter (ATP citrate lyase 2) as an 
+            AB (GGAG/TACT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yarrowia lipolytica, Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part; 
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 878)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 844)
+  AUTHORS   Lynn Wong, Jake Engel, Erqing Jin, Benjamin Holdridge, Peng Xu
+  TITLE     YaliBricks, a versatile genetic toolkit for streamlined and rapid pathway 
+            engineering in Yarrowia lipolytica.
+  JOURNAL   Metab Eng Commun. 2017 Oct 1;5:68-77
+            PubMed ID: 29188186
+			doi: 10.1016/j.meteno.2017.09.001
+COMMENT     .
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="A"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     source          44..844
+                     /organism="Yarrowia lipolytica CLIB122"
+                     /mol_type="genomic DNA"
+     promoter        40..848
+                     /label="ACL2 Promoter"
+                     /original_record="part"
+     misc_feature    845..848
+                     /label="B"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(850..855)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    856..861
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(864..867,870..875))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtG GAGaaaatga cgacaattcg
+       61 aaccgaggcc aattgagcac gccgaagcag tttcaacgca atcggccgcg attcggacca
+      121 gttgggccgc tcttaggcag tcaccaacca gatgttctgc acggatttcc ccgattgtgg
+      181 aaatgaaatc gacgccggcg tcatggcaat cgacagttgg gggagagata aatcggtggt
+      241 cacgtgtaca ccccccacga gcgActcccg tgccactttc tccccagcga ccgttatctc
+      301 aactcacttc ccctctctca acagttaacc caaccctcaa ccaaattgac gtggttagcg
+      361 gtttggcagg cgacaagcga aattgacttt tccaacaaac tcagcacgcc accacgcccg
+      421 ttcgccatgc atgttgtacc cctcaccgag gccaccagga ttgggtcaaa gtgaggggga
+      481 gtatcaacaa gaaggaaaaa gggtcttttg ggagctccaa aatagttggg gaggcggacc
+      541 aacagagaca tatatagact cgaaaccaat gtcacaaatc catctttacc aaataaagtt
+      601 agggacacaa aaccgctctc caaacaggat ataattgtcc caccaccacc acacacacac
+      661 accacccaac ccaacattta gcctccgtct gctacaactt aatcaggcac gactcactct
+      721 tctttctacg tgacacaaac agagcgacac ctacggagcg acacccccct cgaccgacac
+      781 agaaacagcg tcgatcacac acacacacac acacacaccg aatccgacac tcaccagatc
+      841 aatcTACTtG AGACCactag tcgCGCTtcG TCTTCtga
+//

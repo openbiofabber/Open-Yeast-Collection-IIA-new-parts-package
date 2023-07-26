@@ -1,0 +1,78 @@
+LOCUS       BT1_glucoamylase_signal  310 bp    DNA     linear   UNK 12-MAR-2023
+DEFINITION  Glucoamylase signal sequence from Aspergillus awamori fused to
+            αMF_no_EAEA. BT1 syntax TACT/CCAT.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit; Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part.
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 268)
+  AUTHORS   Ulrike Obst, Timothy K Lu, Volker Sieber
+  TITLE     A Modular Toolkit for Generating Pichia pastoris Secretion Libraries.
+  JOURNAL   ACS Synth Biol. 2017 Jun 16;6(6):1016-1025
+            PubMed ID: 28252957
+			doi: 10.1021/acssynbio.6b00337
+COMMENT     .
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="B"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     CDS             44..97
+                     /codon_start=1
+                     /label="glucoamylase signal"
+                     /translation="MSFRSLLALSGLVCSGLA"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     CDS             98..268
+                     /codon_start=1
+                     /label="αMF_no_EAEA"
+                     /translation="MRFPSIFTAVLFAASSALAAPVNTTTEDELEGDFDVAVLPFSASI
+                     AAKEEGVSLEKR"
+                     /ApEinfo_fwdcolor="#2B8AE2"
+                     /ApEinfo_revcolor="#2B8AE2"
+     misc_feature    270..273
+                     /label="T1"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     protein_bind    complement(275..280)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    281..286
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(289..292,295..300))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcT ACTatgtctt tcagatccct
+       61 attggcattg tcagggttgg tctgttctgg attggctatg agatttccta gtattttcac
+      121 tgctgtgcta tttgccgcta gttccgctct agctgctcca gttaatacta ctactgaaga
+      181 tgaattggag ggtgacttcg atgttgctgt tctgcctttt tccgcttcta tcgcagccaa
+      241 ggaagaaggt gtatccctag agaagcgttC CATgGAGACC actagtcgCG CTtcGTCTTC
+      301 tgatacagac
+//

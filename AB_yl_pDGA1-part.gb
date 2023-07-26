@@ -1,0 +1,81 @@
+LOCUS       AB_yh_pDGA1                 877 bp    DNA     linear   UNC 06-SEP-2022
+DEFINITION  Yarrowia lipolytica DGA1 (Acyl-CoA diacylglycerol acyltransferase) 
+            promoter as an AB (GGAG/TACT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yarrowia lipolytica, Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part; 
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 877)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 843)
+  AUTHORS   Lynn Wong, Jake Engel, Erqing Jin, Benjamin Holdridge, Peng Xu
+  TITLE     YaliBricks, a versatile genetic toolkit for streamlined and rapid pathway 
+            engineering in Yarrowia lipolytica.
+  JOURNAL   Metab Eng Commun. 2017 Oct 1;5:68-77
+            PubMed ID: 29188186
+			doi: 10.1016/j.meteno.2017.09.001
+COMMENT     BsaI site removed (t>A)
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="A"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     source          44..843
+                     /organism="Yarrowia lipolytica CLIB122"
+                     /mol_type="genomic DNA"
+     promoter        40..847
+                     /label="DGA1 Promoter"
+                     /original_record="part"
+     misc_feature    844..847
+                     /label="B"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(849..854)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    855..860
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(863..866,869..874))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtG GAGgatccat cctcgaccag
+       61 tggcacgctc aaccccatgg ttcgcttttc tcttttcgtc tatcctgaac tgagtttttt
+      121 tccacgccaa ctgatatccc cttacgttac cccctcatca cctggtgagg cgaaactgta
+      181 aggtgaaagc taaaaatgac atctcagctg cacgaaggac cggggcttaa aagacgggct
+      241 ggtgcttgtg atttaaaact ggacaaatct cagcttgctt gaaattttgg Actccaactg
+      301 tttccgagcg aatcgcacac aaaccgggct tctctctgca gaccacgccc ccgaaactct
+      361 ttctcccacc accaccaaca ctccctttcc attcccacac cgttcctctc tcgtgcgtca
+      421 tccttgcgca atcatcttcg tctgcgacat attgtacgac atacagtacc acggaacgtt
+      481 tcagaccgtc gacgtgaaca catcttagga acagcaacct gagctacaga aatctatcta
+      541 taggcggata aaaaaacgca cccactgctc gtcctccttg ctcctcgaaa ccgactcctc
+      601 tacacacgtc aaatccgagg ttgaaatctt ccccacattt ggcagccaaa ccagcacatc
+      661 ccagcaacct cgcacagcgc cgaaatcgac ctgtcgactt ggccacaaaa aaaagcaccg
+      721 gctctgcaac agttctcacg accaattacg tacaagtacg aaatcgttcg tggaccgtga
+      781 ctgataagct cccacttttt cttctaacaa caggcaacag acaagtcaca caaaacaaaa
+      841 gctTACTtGA GACCactagt cgCGCTtcGT CTTCtga
+//

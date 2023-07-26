@@ -1,0 +1,97 @@
+LOCUS       CE_yl_ScRAD52              1435 bp    DNA     linear   UNC 21-FEB-2023
+DEFINITION  ScRAD52 codon optimized for Yarrowia lipolytica as a CE (AATG/GCTT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Open Yeast Collection IIA Part; Golden Gate Assembly;
+            OpenMTA; iGEM;
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1435)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 8 to 1456)
+  AUTHORS   Qingchun Ji, Jie Mai, Ying Ding, Yongjun Wei, Rodrigo Ledesma-Amaro, 
+            Xiao-Jun Ji
+  TITLE     Improving the homologous recombination efficiency of Yarrowia lipolytica 
+            by grafting heterologous component from Saccharomyces cerevisiae.
+  JOURNAL   Metabolic Engineering Communications 11 (2020) e00152
+            PubMed ID:  33294367
+			doi: 10.1016/j.mec.2020.e00152
+COMMENT     Internal BsaI site remove (g>A).
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="C"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     CDS             41..1456
+                     /label="yl_ScRAD52"
+                     /translation="MVARKGEELFTGVVPILVELDGDVNGHKFSVRGEGEGDATNGKLT
+                     /translation="MAFLSYFATENQQMQTRRLPRTAEGSGGFGVLLMNEIMDMDEKKP
+                     VFGNHSEDIQTKLDKKLGPEYISKRVGFGTSRIAYIEGWRVINLANQIFGYNGWSTEVK
+                     SVVIDFLDERQGKFSIGCTAIVRVTLTSGTYREDIGYGTVENERRKPAAFERAKKSAVT
+                     DALKRSLRGFGNALGNCLYDKDFLAKIDKVKFDPPDFDENNLFRPTDEISESSRTNTLH
+                     ENQEQQQYPNKRRQLTKVTNTNPDSTKNLVKIENTVSRGTPMMAAPAEANSKNSSNKDT
+                     DLKSLDASKQDQDDLLDDSLMFSDDFQDDDLINMGNTNSNVLTTEKDPVVAKQSPTASS
+                     NPEAEQITFVTAKAATSVQNERYIGEESIFDPKYQAQSIRHTVDQTTSKHIPASVLKDK
+                     TMTTARDSVYEKFAPKGKQLSMKNNDKELGPHMLEGAGNQVPRETTPIKTNATAFPPAA
+                     APRFAPPSKVVHPNGNGAVPAVPQQRSTRREVGRPKINPLHARKPT*"
+     misc_feature    1457..1460
+                     /label="E"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(1462..1467)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1468..1473
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(1477..1480,1482..1487))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcA ATGaacgaaatt atggatatgg acgagaagaa acccgtgttc ggcaaccatt
+       61 ccgaggacat ccagaccaag ctggacaaga aactgggccc cgaatacatc tccaagagag
+      121 tgggcttcgg cacttcccga atcgcctaca tcgagggctg gcgagtcatt aatctcgcta
+      181 accaaatctt cggctacaac ggctggtcca ccgaggtcaa gtccgtcgtc atcgattttt
+      241 tagacgagcg acaaggcaaa ttttctattg gctgcaccgc tatcgtgcga gtcactctga
+      301 cctctggcac ctaccgagaa gatatcggat acggcaccgt cgagaacgaa agacgaaagc
+      361 ccgctgcttt cgagcgagct aagaagtccg ctgtgaccga tgctttaaag agatctctgc
+      421 gaggctttgg caacgctctg ggaaactgtc tctacgataa ggactttctg gccaagatcg
+      481 acaaggtcaa gttcgacccc cccgatttcg acgagaataa tttattccga cctaccgatg
+      541 agatctccga atcctcccga actaacactt tacacgagaa ccaagaacag cagcagtacc
+      601 ctaacaagcg acgacaactg accaaggtga ccaacaccaa ccccgactcc accaaaaatc
+      661 tggtcaagat tgagaacacc gtgtccagag gcactcctat gatggccgcc cccgccgaag
+      721 ccaactccaa gaactcctct aacaaagaca ccgatttaaa gtctctcgac gcctccaagc
+      781 aagatcaaga tgatttactg gacgactctc tgatgttctc cgatgacttc caagatgacg
+      841 acctcatcaa tatgggcaac accaactcta acgttttaac caccgagaag gaccccgttg
+      901 tggccaagca gtctcccact gcttcctcta accccgaggc cgagcaaatc acctttgtca
+      961 ccgccaaggc cgccacctct gtccagaacg agcgatacat cggcgaggag tccatttttg
+     1021 accccaagta ccaagctcag tctatccgac acaccgtcga ccagaccact tccaagcata
+     1081 tccccgcctc tgtgctcaag gataaaacca tgaccaccgc ccgagactcc gtgtacgaga
+     1141 agtttgcccc caagggaaag cagctctcca tgaaaaataa cgacaaggaa ctgggccctc
+     1201 acatgctgga gggagccggc aaccaagttc ctcgagaAac cacccccatt aagaccaacg
+     1261 ctaccgcttt cccccccgct gctgctccca gatttgcccc tccctccaag gtggtgcacc
+     1321 ccaacggcaa cggagccgtg cccgctgtgc ctcagcagcg atccactcga cgagaagtgg
+     1381 gacgacccaa gattaacccc ctccatgcca gaaagcccac ctaaGCTTcG AGACC
+     actagtcgCGCTtcGTCTTCtga
+//

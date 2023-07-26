@@ -1,0 +1,71 @@
+LOCUS       BC_His_TEVcut            310 bp    DNA     linear   SYN 03-NOV-2022
+DEFINITION  A BCD combined with a his N terminal purification tag and a TEV
+            cleavage site. Defined as a BC (TACT/AATG) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit; Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part.
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 108)
+  AUTHORS   Dr. Jenny Molloy and collaborators, openbioeconomylab.org
+  TITLE     E.coli Protein Expression Toolkit.
+  JOURNAL   https://freegenes.github.io/genes/BBF10K_003419.html
+COMMENT     Adapted for yeast from the E.coli Protein Expression Toolkit sans RBS.
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="B"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     CDS             44..108
+                     /label="BC_His_TEVcut"
+                     /gene="BC_His_TEVcut"
+                     /translation="MGSSHHHHHHSSGGENLYFQGGM"
+     misc_feature    109..112
+                     /label="C"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     protein_bind    complement(114..119)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    120..125
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(128..131,134..139))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    143..310
+                     /label="random sequence"
+                     /ApEinfo_fwdcolor="#ffef86"
+                     /ApEinfo_revcolor="#ffef86"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcT ACTatgggat cttctcatca
+       61 ccatcatcat cattcctctg gaggagagaa cttgtatttt cagggtggAA TGaGAGACCa
+      121 ctagtcaCGC TtcGTCTTCt gagagaggcc ctacaaggaa atagcgtact ttagttcgga
+      181 cgcccagtgt tcacaaggac accgccccag atcgtactat catgtattcc tgcgatggcc
+      241 tcaataattg ccttaccagt gaactgtcac tgaatcacct accgctttcg tgctttactg
+      301 taaacaggga
+//

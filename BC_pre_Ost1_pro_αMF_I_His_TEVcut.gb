@@ -1,0 +1,91 @@
+LOCUS       BC_pre_Ost1_pro_alpha_MF_I_His_TEVcut 397 bp    DNA     linear   UNK 12-MAR-2023
+DEFINITION  α-mating factor secretion signal with His_tag and TEVcut. BC syntax
+            (TACT/AAGT).
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit; Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part.
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 397)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 319)
+  AUTHORS   Juan J Barrero, Jason C Casler, Francisco Valero, Pau Ferrer, 
+            Benjamin S Glick 
+  TITLE     An improved secretion signal enhances the secretion of model proteins 
+            from Pichia pastoris.
+  JOURNAL   Microb Cell Fact. 2018 Oct 12;17(1):161
+            PubMed ID: 30314480
+			doi: 10.1186/s12934-018-1009-5
+COMMENT     .
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="B"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     CDS             44..109
+                     /codon_start=1
+                     /label="Pre-Ost1"
+                     /translation="MRQVWFSWIVGLFLCFFNVSSA"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     CDS             110..319
+                     /codon_start=1
+                     /label="Pro-alpha-factor(I)"
+                     /translation="APVNTTTEDETAQIPAEAVIGYSDLEGDFDVAVLPFSNSTNNGLL
+                     FINTTIASIAAKEEGVSLEKREAEA"
+                     /ApEinfo_fwdcolor="#2B8AE2"
+                     /ApEinfo_revcolor="#2B8AE2"
+     CDS             320..340
+                     /label="His_tag"
+                     /translation="GHHHHHH"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     CDS             341..363
+                     /label="TEVcut"
+                     /translation="GENLYFQGGM"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    364..367
+                     /label="C"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     protein_bind    complement(369..374)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    375..380
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(383..386,389..394))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcT ACTatgaggc aggtttggtt
+       61 ctcttggatt gtgggattgt tcctatgttt tttcaacgtt tcttctgctg ctccagtcaa
+      121 cactacaaca gaagatgaaa cggcacaaat tccggctgaa gctgtcatcg gttactcaga
+      181 tttagaaggg gatttcgatg ttgctgtttt gccattttcc aacagcacaa ataacgggtt
+      241 attgtttata aatactacta ttgccagcat tgctgctaaa gaagaagggg tatctctcga
+      301 gaaaagagag gctgaagctg gacatcacca tcaccatcac ggagagaatc tgtactttca
+      361 aggAATGgGA GACCactagt cgCGCTtcGT CTTCtga
+//

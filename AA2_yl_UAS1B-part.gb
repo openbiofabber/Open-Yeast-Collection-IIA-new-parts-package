@@ -1,0 +1,96 @@
+LOCUS       AA2_yl_UAS1B-part               310 bp    DNA     linear   UNC 11-FEB-2023
+DEFINITION  Yarrowia lipolytica upstream activating sequence UAS1B as an AA2   
+            (GGAG/TAAC) part. To be used with A2B minimal promoters.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Open Yeast Collection IIA Part; Golden Gate Assembly; OpenMTA; iGEM;
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Open Science Network Society
+  TITLE     Direct Submission 
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 188)
+  AUTHORS   Murtaza Shabbir Hussain, Lauren Gambill, Spencer Smith, and Mark Blenner
+  TITLE     Engineering Promoter Architecture in Oleaginous Yeast Yarrowia lipolytica.
+  JOURNAL   ACS Synth Biol. 2016 Mar 18;5(3):213-23.
+            doi: 10.1021/acssynbio.5b00100
+            PubMed ID: 26635071
+REFERENCE   3  (bases 44 to 188)
+  AUTHORS   John Blazeck, Ben Reed, Rishi Garg, Rachelle Gerstner, Annie Pan, 
+            Vaibhav Agarwala, Hal S. Alper
+  TITLE     Generalizing a hybrid synthetic promoter approach in Yarrowia lipolytica.
+  JOURNAL   ACS Synth Biol. 2016 Mar 18;5(3):213-23.
+            doi: 10.1007/s00253-012-4421-5
+            PubMed ID: 23053080
+COMMENT     Part for clonal synthesis; Random sequence added to meet Twist's minimum. 
+            BsmBI dropout is used for recursive assembly of multiple UAS units. 
+            Internal BsaI site removed (a>T).
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="A"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(45..50)
+                     /label="BsmBI"
+                     /ApEinfo_fwdcolor="#8B008B"
+                     /ApEinfo_revcolor="#8B008B"
+     misc_feature    51..68
+                     /label="BsmB1 dropout"
+                     /ApEinfo_fwdcolor="#A9A9A9"
+                     /ApEinfo_revcolor="#A9A9A9"
+     protein_bind    69..74
+                     /label="BsmBI"
+                     /ApEinfo_fwdcolor="#8B008B"
+                     /ApEinfo_revcolor="#8B008B"
+     misc_feature    76..79
+                     /label="B"
+                     /ApEinfo_revcolor=#A9A9A9
+                     /ApEinfo_fwdcolor=#A9A9A9
+     promoter        80..184
+                     /label="UAS1B"
+                     /original_record="part"
+     misc_feature    185..188
+                     /label="B"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(190..195)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    196..201
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(204..207,210..215))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    216..310
+                     /label="random sequence"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtG GAGtGAGACG ctcgagGTGC
+       61 ACcaattgCG TCTCgTAACc tgaggtgtct cacaagtgcc gtgcagtccc gcccccactt
+      121 gcttctcttt gtgtgtagtg tacgtacatt atcgTgaccg ttgttcccgc ccacctcgat
+      181 ccggTAACtG AGACCactag tcgCGCTtcG TCTTCtgact atagtgtaac gcaggttcgt
+      241 ctgccctagt ctctgacctc gacgggcacg atgatacgga ctgctaggta gaggctagtt
+      301 acgccctgcc
+//

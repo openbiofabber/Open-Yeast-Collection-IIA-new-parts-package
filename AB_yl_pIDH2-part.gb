@@ -1,0 +1,81 @@
+LOCUS       AB_yh_pIDH2                 877 bp    DNA     linear   UNC 06-SEP-2022
+DEFINITION  Yarrowia lipolytica IDH2 (isocitrate dehydrogenase) promoter as an AB 
+            (GGAG/TACT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yarrowia lipolytica, Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part; 
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 877)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 843)
+  AUTHORS   Lynn Wong, Jake Engel, Erqing Jin, Benjamin Holdridge, Peng Xu
+  TITLE     YaliBricks, a versatile genetic toolkit for streamlined and rapid pathway 
+            engineering in Yarrowia lipolytica.
+  JOURNAL   Metab Eng Commun. 2017 Oct 1;5:68-77
+            PubMed ID: 29188186
+			doi: 10.1016/j.meteno.2017.09.001
+COMMENT     BsaI sites removed (t>A)
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="A"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     source          44..843
+                     /organism="Yarrowia lipolytica CLIB122"
+                     /mol_type="genomic DNA"
+     promoter        40..847
+                     /label="IDH2 Promoter"
+                     /original_record="part"
+     misc_feature    844..847
+                     /label="B"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(849..854)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    855..860
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(863..866,869..874))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtG GAGagtacaa ttgtgctgtg
+       61 cggatgtcca tgagaaagtt ggtacttgcg Actctcccat tgctccatgt ttcgccctgt
+      121 ttttcacagc tcctttggac cttgtattcc tgcgatcaaa cagcgtatga agctaaaatt
+      181 gcgtttttcg gTgacgattg gctcggactt aagagggagc tgtgggagag gacttggaag
+      241 ggcgatagag ggagcgattg gacgggcttt acagggttag ggatccgtat cattgatttt
+      301 acgggccaaa cccttccacc gcctttcctg tcgctcccca accccccaat tgaacccgtt
+      361 atccagctta acatatagtt acatattcct cagactttgg cgtacattca tcttttttgc
+      421 cagtgcagct tttttgcagt gccagttgca tattgtttat ccgggggatg aggggagtta
+      481 gacggacgtg ggtaggggta ggggtttagg ggaccgaaca ggagccctcg gatatacatg
+      541 gggatgccaa gcatagcaat tcccggtcaa tccggacacc ctagccccaa taatgagccc
+      601 tccaggagct ccagacacca gcagtccctc aaaccctatt ggttcttacg cagcaaagtg
+      661 ttggtccatc actacgctcc caacccgtgt gtctttgtgt ttttggtgct tgtgtaatgt
+      721 taattttttt tccctttggt cccacgttcc ctccttccac acactacacc ttagcgcgat
+      781 ttactcgtcg acatcacttt tttttcttgt cgccaacttc gtggaacccc caaagaaatc
+      841 acaTACTtGA GACCactagt cgCGCTtcGT CTTCtga
+//

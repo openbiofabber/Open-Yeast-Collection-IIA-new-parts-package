@@ -1,0 +1,69 @@
+LOCUS       A2B_yl_pTEF_274              351 bp    DNA     linear   UNC 12-FEB-2023
+DEFINITION  Yarrowia lipolytica TEF promoter (-1 to -274) as an A2B (TAAC/TACT)  
+            part. To be used with an upstream activating sequence.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Open Yeast Collection IIA Part; Golden Gate Assembly; OpenMTA; iGEM;
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Open Science Network Society
+  TITLE     Direct Submission 
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 317)
+  AUTHORS   John Blazeck, Ben Reed, Rishi Garg, Rachelle Gerstner, Annie Pan, 
+            Vaibhav Agarwala, Hal S. Alper
+  TITLE     Generalizing a hybrid synthetic promoter approach in Yarrowia lipolytica.
+  JOURNAL   ACS Synth Biol. 2016 Mar 18;5(3):213-23.
+            doi: 10.1007/s00253-012-4421-5
+            PubMed ID: 23053080
+COMMENT     Part for clonal synthesis; Random sequence added to meet Twist's minimum. 
+            BsmBI dropout is used for recursive assembly of multiple UAS units.
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="A2"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     promoter        44..317
+                     /label="pTEF_274 Promoter"
+                     /original_record="part"
+     misc_feature    318..321
+                     /label="B"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(323..328)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    329..334
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(337..340,343..348))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtT AACttcccac acttgccgtt
+       61 aagggcgtag ggtactgcag tctggaatct acgcttgttc agactttgtt ctagtttctt
+      121 tgtctggcca tccgggtaac ccatgccgga cgcaaaatag actactgaaa atttttttgc
+      181 tttgtggttg ggactttagc caagggtata aaagaccacc gtccccgaat tacctttcct
+      241 cttcttttct ctctctcctt gtcaactcac acccgaaatc gttaagcatt tccttctgag
+      301 tataagaatc attcaaaTAC TtGAGACCac tagtcgCGCT tcGTCTTCtg a
+//

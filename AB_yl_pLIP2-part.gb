@@ -1,0 +1,83 @@
+LOCUS       AB_yh_pLIP2                1077 bp    DNA     linear   UNC 05-SEP-2022
+DEFINITION  Yarrowia lipolytica LIP2 inducible promoter as an AB (GGAG/TACT) part.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yarrowia lipolytica, Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part; 
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1077)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 1043)
+  AUTHORS   Lynn Wong, Jake Engel, Erqing Jin, Benjamin Holdridge, Peng Xu
+  TITLE     YaliBricks, a versatile genetic toolkit for streamlined and rapid pathway 
+            engineering in Yarrowia lipolytica.
+  JOURNAL   Metab Eng Commun. 2017 Oct 1;5:68-77
+            PubMed ID: 29188186
+			doi: 10.1016/j.meteno.2017.09.001
+COMMENT     BsmBI site removed (a>T)
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="A"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     source          44..1043
+                     /organism="Yarrowia lipolytica CLIB122"
+                     /mol_type="genomic DNA"
+     promoter        40..1047
+                     /label="LIP2 inducible promoter"
+                     /original_record="part"
+     misc_feature    1044..1047
+                     /label="B"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(1049..1054)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    1055..1060
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(1063..1066,1069..1074))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCtG GAGaaacttc tccgagtctg
+       61 tgccttcagg tgggcatagt tgatgggtgt tttgaagtta atagtgggga agaactatgg
+      121 caaacaagca gatgcaggca ccttgtaact gcagaccggt tcttgtctac cgactccgct
+      181 gcacctgtgc cgcggtacat gtcgtcacag gctgcggggt tcggaggccc ccttgcaacc
+      241 tcctttgata gttgctatgg ccccaaagag ttatacgaga tagacccaca gatctacttg
+      301 actgttgtca cagaacctgc taggtttgct tattgtaccc gctttgtagc tactgtacaa
+      361 cgacaacgtc aaaaattgTg acgcgaacaa actccagatg cagaacccaa acctctctct
+      421 cagagtttcg agtgcttcta cctcacagta aagtggaggt ggacctgcaa gggaattcag
+      481 tcacaaggcc ccgaatgtct ccgaaactcc aatcggaccg tttaaacaga ctaatatcac
+      541 gtcattgatt gatattagca tccggcaaga gccgcaaggt tatctcctca ccaatgagcc
+      601 tgttgtacgg ctcattccgc atctgcggct gattcagttt cgagtgggga tggtagactt
+      661 cattgcagca ttcctaacct tctacttggt ccgtggagat gtcatggaca tcgattttgg
+      721 gctgagaagc cttttgacga tgttgatatc actgaccgct aatttactct ggcagtttct
+      781 ccggctctcg aggcatcgtc gatcaccaaa cactatctgc tagtctaaat gtccgacacg
+      841 acagcttttg atcgccgtga acggcgcaga cctcatgcac catgcaccag ggccaaatca
+      901 attacgggtc gcttagcgtt gcagtcgggg cattatggtg gaagttccga tacggcacag
+      961 acacattcca tagtgggggg attggattat aaaagggcca tagaaagccc tcaattgata
+     1021 cccaagtacc agctctcctc actTACTtGA GACCactagt cgCGCTtcGT CTTCtga
+//

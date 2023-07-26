@@ -1,5 +1,5 @@
-LOCUS       yh_tTEF                  310 bp    DNA     linear   UNC 12-SEP-2022
-DEFINITION  Yarrowia lipolytica TEF native terminator as a GCTT/CGCT part.
+LOCUS       EF_yl_tTEF                  310 bp    DNA     linear   UNC 12-SEP-2022
+DEFINITION  Yarrowia lipolytica TEF native terminator as an EF (GCTT/CGCT) part.
 ACCESSION   .
 VERSION     .
 KEYWORDS    Open Yeast Collection IIA Part; Golden Gate Assembly;
@@ -31,14 +31,22 @@ FEATURES             Location/Qualifiers
                      /label="XbaI"
                      /ApEinfo_fwdcolor="#8A2BE2"
                      /ApEinfo_revcolor="#8A2BE2"
-     protein_bind    join(33..38,40..43)
+     protein_bind    33..38
                      /label="BsaI"
                      /ApEinfo_fwdcolor="#00FF2C"
                      /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="E"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
      terminator      40..124
                      /label="TEF terminator"
                      /original_record="part"
-     protein_bind    complement(join(121..124,126..131))
+     misc_feature    121..124
+                     /label="F"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(126..131)
                      /label="BsaI"
                      /ApEinfo_fwdcolor="#00FF2C"
                      /ApEinfo_revcolor="#00FF2C"

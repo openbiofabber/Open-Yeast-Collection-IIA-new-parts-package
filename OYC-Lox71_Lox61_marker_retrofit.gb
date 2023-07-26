@@ -1,0 +1,113 @@
+LOCUS       OYC_Lox71_Lox61_marker_retrofit  310 bp    DNA     linear   UNC 26-JUL-2023
+DEFINITION  Adaptor system for retrofitting OYC yeast selection markers with 
+            Lox71/Lox61 sites. For removing markers post integration with Cre 
+            recombinase.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Open Yeast Collection IIA Part; Golden Gate Assembly; OpenMTA; iGEM;
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 310)
+  AUTHORS   Scott Pownall, Open Science Network Society
+  TITLE     Direct Submission 
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 77 and 138 to 171)
+  AUTHORS   Stephen J Langer, A Paiman Ghafoori, Marshall Byrd, Leslie Leinwand
+  TITLE     A genetic screen identifies novel non-compatible loxP sites.
+  JOURNAL   Nucleic Acids Res. 2002 Jul 15;30(14):3067-77
+            PubMed ID: 12136089
+			doi: 10.1093/nar/gkf421
+REFERENCE   3  (bases 78 to 97 and 172 to 191)
+  AUTHORS   Subu K Subramanian, William P Russ, Rama Ranganathan 
+  TITLE     A set of experimentally validated, mutually orthogonal primers for 
+			combinatorially specifying genetic components.
+  JOURNAL   Synth Biol (Oxf). 2018 Jan 18;3(1):ysx008.
+            PubMed ID: 32995509
+			doi: 10.1093/synbio/ysx008
+COMMENT     OYC yeast selection markers can be cloned into the BsmBI sites via their 
+			BsaI sites.
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="AAGG"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     misc_feature    98..101
+                     /label="AAGG"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     misc_feature    44..77
+                     /label="Lox71 site"
+                     /ApEinfo_fwdcolor="#A9A9A9"
+                     /ApEinfo_revcolor="#A9A9A9"
+     primer_bind     complement(78..97)
+                     /label="Ortho-primer 162"
+                     /ApEinfo_fwdcolor="#0000CD"
+                     /ApEinfo_revcolor="#0000CD"
+     protein_bind    complement(103..108)
+                     /label="BsmBI"
+                     /ApEinfo_fwdcolor="#8B008B"
+                     /ApEinfo_revcolor="#8B008B"
+     misc_feature    109..126
+                     /label="BsmB1 dropout"
+                     /ApEinfo_fwdcolor="#A9A9A9"
+                     /ApEinfo_revcolor="#A9A9A9"
+     protein_bind    127..132
+                     /label="BsmBI"
+                     /ApEinfo_fwdcolor="#8B008B"
+                     /ApEinfo_revcolor="#8B008B"
+     misc_feature    134..137
+                     /label="ATGA"
+                     /ApEinfo_revcolor=#A9A9A9
+                     /ApEinfo_fwdcolor=#A9A9A9
+     misc_feature    138..171
+                     /label="Lox66 site"
+                     /ApEinfo_fwdcolor="#A9A9A9"
+                     /ApEinfo_revcolor="#A9A9A9"
+     primer_bind     complement(172..191)
+                     /label="Ortho-primer 162"
+                     /ApEinfo_fwdcolor="#0000CD"
+                     /ApEinfo_revcolor="#0000CD"
+     misc_feature    192..195
+                     /label="ATGA"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+     protein_bind    complement(197..202)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    203..208
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(211..214,217..222))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     misc_feature    223..310
+                     /label="random sequence"
+                     /ApEinfo_revcolor=#ffef86
+                     /ApEinfo_fwdcolor=#ffef86
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCaA AGGTACCGTT CGTATAatgt
+       61 atgcTATACG AAGTTATcgc ctgtatcttg tcgatgaAAG GtGAGACGct cgagGTGCAC
+      121 caattgCGTC TCgATGAATA ACTTCGTATA atgtatgcTA TACGAACGGT Aggtatattt
+      181 ctcccctcgg gATGAtGAGA CCactagtcg CGCTtcGTCT TCtgacgatc tgtcacattt
+      241 gaccgccgag cggatacaag ccagtcccat ggtgtcatcc gtcaacgctc acggccgtgg
+      301 tcccgagatg
+//
