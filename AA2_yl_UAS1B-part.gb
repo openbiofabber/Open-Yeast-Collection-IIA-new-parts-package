@@ -60,14 +60,14 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_fwdcolor="#8B008B"
                      /ApEinfo_revcolor="#8B008B"
      misc_feature    76..79
-                     /label="B"
+                     /label="A2"
                      /ApEinfo_revcolor=#A9A9A9
                      /ApEinfo_fwdcolor=#A9A9A9
      promoter        80..184
                      /label="UAS1B"
                      /original_record="part"
      misc_feature    185..188
-                     /label="B"
+                     /label="A2"
                      /ApEinfo_revcolor=#ffef86
                      /ApEinfo_fwdcolor=#ffef86
      protein_bind    complement(190..195)
