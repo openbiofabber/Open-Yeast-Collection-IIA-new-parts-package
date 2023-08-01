@@ -1,0 +1,80 @@
+LOCUS       BT1_Wci_α_mating_factor_signal 363 bp    DNA     linear   UNK 12-MAR-2023
+DEFINITION  α-mating factor secretion signal from Wickerhamomyces ciferrii. BT1
+            syntax TACT/CCAT.
+ACCESSION   .
+VERSION     .
+KEYWORDS    Yeast Protein Expression Toolkit; Golden Gate Assembly; OpenMTA; iGEM; 
+            Open Yeast Collection IIA Part.
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 406)
+  AUTHORS   Scott Pownall, Ian Caven, Open Science Network Society
+  TITLE     Direct Submission
+  JOURNAL   https://iGEM.org/
+REFERENCE   2  (bases 44 to 328)
+  AUTHORS   Chenwei Zou, Lingfang Lu, Shengyan Wang, Chenshan Zhang, Xuequn Chen, 
+            Yao Lin, Yide Huang.
+  TITLE     The α-mating factor secretion signals and endogenous signal peptides 
+            for recombinant protein secretion in Komagataella phaffii.
+  JOURNAL   Biotechnol Biofuels Bioprod. 2022 Dec 16;15(1):140
+            PubMed ID: 36527112
+			doi: 10.1186/s13068-022-02243-6
+FEATURES             Location/Qualifiers
+     protein_bind    join(4..9,12..15)
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    17..24
+                     /label="PacI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    26..31
+                     /label="XbaI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    33..38
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     misc_feature    40..43
+                     /label="B"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     CDS             44..106
+                     /codon_start=1
+                     /label="W.ci. αMF signal"
+                     /translation="MQLSLLTSLAIVSTLLGSSFA"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     CDS             107..328
+                     /codon_start=1
+                     /label="W.ci. αMF pro peptide"
+                     /translation="APVENINIKDNGNGTSEADVPGTSQGVEFPFAKEAIIEAVSLGND
+                     IAPIVLNDAVYFVNTTTVDKELESKLGKR"
+                     /ApEinfo_fwdcolor="#2B8AE2"
+                     /ApEinfo_revcolor="#2B8AE2"
+     misc_feature    330..333
+                     /label="T1"
+                     /ApEinfo_revcolor="#ffef86"
+                     /ApEinfo_fwdcolor="#ffef86"
+     protein_bind    complement(335..340)
+                     /label="BsaI"
+                     /ApEinfo_fwdcolor="#00FF2C"
+                     /ApEinfo_revcolor="#00FF2C"
+     protein_bind    341..346
+                     /label="SpeI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+     protein_bind    complement(join(349..352,355..360))
+                     /label="BbsI"
+                     /ApEinfo_fwdcolor="#8A2BE2"
+                     /ApEinfo_revcolor="#8A2BE2"
+ORIGIN
+        1 ggcGAAGACa gGGAGcTTAA TTAAcTCTAG AcGGTCTCcT ACTatgcaac tttctttact
+       61 aacttctttg gccattgttt ccactttact aggctcttcg tttgctgctc cagtggagaa
+      121 tatcaatatc aaagacaatg gcaatggcac cagtgaagct gatgttcctg gaacttctca
+      181 aggtgttgag tttccgtttg ccaaagaagc catcattgaa gctgtttctt taggcaatga
+      241 tattgctcca attgttctca atgatgctgt ttattttgtc aataccacca ctgttgacaa
+      301 agagctggaa agcaaacttg gcaaacgatC CATgGAGACC actagtcgCG CTtcGTCTTC
+      361 tga
+//
